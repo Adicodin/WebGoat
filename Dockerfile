@@ -13,7 +13,7 @@ USER webgoat
 
 COPY --chown=webgoat target/webgoat-*.jar /home/webgoat/webgoat.jar
 
-EXPOSE 8080
+EXPOSE 3000
 EXPOSE 9090
 
 ENV TZ=Europe/Amsterdam
